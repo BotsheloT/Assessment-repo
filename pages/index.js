@@ -8,23 +8,23 @@ export default function Home() {
   const[darkMode, setDarkMode] = useState(false);
 
   // Functions for changing accordion item states
-  const toggleHidden = e =>{
-    e.preventDefault();
-    const elem = document.getElementById('accordion-1');
-    elem.classList.toggle("hidden");
-  }
+  // const toggleHidden = e =>{
+  //   e.preventDefault();
+  //   const elem = document.getElementById('accordion-1');
+  //   elem.classList.toggle("hidden");
+  // }
 
-  const toggleHidden2 = e =>{
-    e.preventDefault();
-    const elem = document.getElementById('accordion-2');
-    elem.classList.toggle("hidden");
-  }
+  // const toggleHidden2 = e =>{
+  //   e.preventDefault();
+  //   const elem = document.getElementById('accordion-2');
+  //   elem.classList.toggle("hidden");
+  // }
 
-  const toggleHidden3 = e =>{
-    e.preventDefault();
-    const elem = document.getElementById('accordion-3');
-    elem.classList.toggle("hidden");
-  }
+  // const toggleHidden3 = e =>{
+  //   e.preventDefault();
+  //   const elem = document.getElementById('accordion-3');
+  //   elem.classList.toggle("hidden");
+  // }
 
   return (
     <div className={styles.container}>
